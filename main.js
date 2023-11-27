@@ -4,10 +4,10 @@ const questionText = document.getElementById('question');
 let correctAnswer;
 
 const questions = [
-    {question: '大和政権には天皇が存在した。○か×か。', answer: 0},
-    {question: '古墳の中に土偶が置いてあった。○か×か。', answer: 0},
-    {question: '日本で須恵器がつくられた。○か×か。', answer: 0},
-    {question: '百済から仏教が伝来した。○か×か。', answer: 1}
+    {question: '大和政権には(　？　)が存在した。　　　1,天皇　2,大王　3,皇子　4,将軍', answer: 2},
+    {question: '古墳の中に(　？　)が置いてあった。　　　1,土偶　2,人形　3,土器　4,埴輪', answer: 4},
+    {question: '(　？　)が渡来人によって輸入された。　　　1,縄文土器　2弥生土器,　3,須恵器　4,磨製石器', answer: 3},
+    {question: '(　？　)から仏教が伝来した。　　　1,百済　2,加羅　3,新羅　4,高句麗', answer: 1}
 ];
 
 function writeQuestion() {

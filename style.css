@@ -1,0 +1,15 @@
+body {
+    margin: 0;
+    padding: 0 auto;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 150px;
+    height: 150px;
+}
