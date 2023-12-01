@@ -39,4 +39,20 @@ function onStart() {
     writeQuestion();
 }
 
+Button1.onmousedown = function () {
+    onAnswer(1)
+}
+
+Button2.onmousedown = function () {
+    onAnswer(2)
+}
+
+Button3.onmousedown = function () {
+    onAnswer(3)
+}
+
+Button4.onmousedown = function () {
+    onAnswer(4)
+}
+
 onStart();
